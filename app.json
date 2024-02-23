@@ -1,5 +1,8 @@
 {
   "expo": {
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "name": "colourChanger",
     "slug": "colourChanger",
     "version": "1.0.0",
@@ -21,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pika003.funAPP"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a5d63edb-9663-44c9-b2c5-40cc67df3ba0"
+      }
     }
   }
 }
